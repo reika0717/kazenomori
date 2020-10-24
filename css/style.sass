@@ -1,0 +1,358 @@
+$RED: #990000
+$NAVY: #0B336E
+
+.yellow_highlight
+  background: linear-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 0, 0.6) 0%)
+  display: inline-block
+  padding: 0 10px 10px
+  background-position: 9px 20px
+  font-weight: bold
+
+.title_small
+  font-size: 14px
+  margin-right: 25px
+  display: flex
+  align-items: center
+  margin-bottom: 4px
+  &:before
+    content: ''
+    width: 14px
+    height: 14px
+    margin-right: 6px
+    display: inline-block
+    border-radius: 20px
+    background-color: #EC6A0D
+
+.margin-top-bottom-30
+  margin: 30px 0
+.margin-top-bottom-15
+  margin: 15px 0
+.margin-top-30
+  margin: 30px 0
+.text-align-right
+  text-align: right
+
+:root
+  --hamburger-menu-size: 44px
+  --hamburger-menu-padding: 14px
+  --hamburger-menu-border-px: 2px
+  --hamburger-menu-border-color: #ffffff
+  --hamburger-menu-transition: 0.3s
+
+body
+  background-color: #BFEBFF
+  font-family: 'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif
+  padding: 8px
+  box-sizing: border-box
+  font-size: 14px
+  line-height: 22px
+  p
+    margin: 8px 0
+  header,
+  footer
+    background-color: $RED
+    text-align: center
+    color: #ffffff
+    width: 100%
+    padding: 12px
+    > h1
+      letter-spacing: 1px
+      font-size: 30px
+      line-height: 30px
+    > p
+      letter-spacing: 1px
+      font-size: 18px
+      margin-top: 8px
+      margin-bottom: 0
+  > header
+    > .hamburger-menu
+      display: none
+  > footer
+    margin-top: 10px
+  > nav
+    background-color: #9A3333
+    > ul
+      background-color: #9A3333
+      max-width: 900px
+      margin: 0 auto
+      display: flex
+      justify-content: space-around
+      padding: 8px 0
+      margin-top: 4px
+      z-index: 90
+      > li
+        > a
+          color: #ffffff
+          font-size: 16px
+          text-decoration: none
+          white-space: nowrap
+  > .content_wrapper
+    position: relative
+    &.index
+      display: flex
+      > main
+        width: 100%
+    &.gaiyo
+      > main
+        > img.gaiyo_img
+          float: right
+          margin-left: 20px
+    &.shisetsu
+      > main
+        > ul
+          display: flex
+          flex-wrap: wrap
+          justify-content: center
+          > li
+            margin: 0 10px 10px 0
+            > span
+              display: block
+              text-align: center
+    &.map
+      > main
+        > .iframe_wrapper
+          position: relative
+          padding-top: 26.25%
+          > iframe
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+        > .map_description
+          display: flex
+          > a
+            display: flex
+            flex-direction: column
+    &.topics
+      > main
+        min-height: 520px
+        > .topics_wrapper
+          > ul.topics_nav
+            display: flex
+            justify-content: flex-start
+            margin-top: 10px
+            margin-bottom: 30px
+            > li
+              margin-right: 20px
+          > h2
+            display: flex
+            justify-content: center
+            align-items: center
+            > img
+              width: 40px
+              margin-right: 5px
+          > img
+            float: right
+            margin-left: 20px
+    &.information
+      > main
+        min-height: 340px
+    > aside
+      width: 230px
+      margin-right: 10px
+      > .aside_section
+        background-color: #ffffff
+        padding: 10px
+        border-radius: 3px
+        margin-top: 10px
+        > h2
+          font-size: 16px
+          color: $NAVY
+          font-weight: bold
+          display: flex
+          align-items: center
+          margin-bottom: 8px
+          &:before
+            content: ''
+            width: 4px
+            height: 18px
+            background-color: $NAVY
+            margin-right: 10px
+            display: inline-block
+        ul
+          > li
+            &:before
+              content: '・'
+    &.category
+      > main
+        > .category_wrapper
+          margin-top: 30px
+          display: flex
+          > .first_column
+            margin-right: 20px
+    > main
+      margin-top: 10px
+      background-color: #ffffff
+      width: 100%
+      padding: 20px
+      border-radius: 3px
+      h2
+        text-align: center
+        font-size: 18px
+        margin-bottom: 20px
+      > .intro_wrapper
+        > .visual_wrapper
+          display: flex
+          align-items: center
+          justify-content: flex-start
+          > img
+            height: 300px
+            object-fit: cover
+            &:nth-of-type(1)
+              width: 65%
+            &:nth-of-type(2)
+              width: 35%
+              margin-left: 10px
+      > .goaisatsu_wrapper,
+      > .calender_wrapper,
+      > .information_wrapper,
+      > .topics_wrapper
+        max-width: 900px
+        margin: 0 auto
+      > .information_wrapper
+        > img
+          float: right
+          margin-left: 20px
+        ul
+          > li
+            &:before
+              content: '・'
+    > .profile
+      display: flex
+      justify-content: center
+      background-color: #E3DCE4
+      > .single_profile
+        width: 50%
+        max-width: 450px
+        padding: 20px 0
+@media screen and (max-width: 896px)
+  body
+    > header
+      text-align: left
+      display: flex
+      padding: 4px 12px
+      position: relative
+      z-index: 100
+      > h1
+        font-size: 18px
+        margin-right: 10px
+      > p
+        display: none
+      > .hamburger-menu
+        display: block
+        width: 44px
+        height: 44px
+        position: absolute
+        top: -3px
+        right: 0
+        &:hover
+          cursor: pointer
+        .hamburger-menu-line
+          position: absolute
+          transition: var(--hamburger-menu-transition)
+          width: calc(100% - var(--hamburger-menu-padding) * 2)
+          height: var(--hamburger-menu-border-px)
+          background-color: var(--hamburger-menu-border-color)
+        .line-top
+          top: var(--hamburger-menu-padding)
+          left: var(--hamburger-menu-padding)
+        .line-middle
+          top: calc(50% - var(--hamburger-menu-border-px)/2)
+          left: var(--hamburger-menu-padding)
+        .line-bottom
+          bottom: var(--hamburger-menu-padding)
+          left: var(--hamburger-menu-padding)
+        &.hamburger-menu-active > .line-top
+          top: calc(50% - var(--hamburger-menu-border-px)/2)
+          transform: rotate(45deg)
+        &.hamburger-menu-active > .line-middle
+          width: 0
+          height: 0
+          left: var(--hamburger-menu-padding)
+        &.hamburger-menu-active > .line-bottom
+          top: calc(50% - var(--hamburger-menu-border-px)/2)
+          transform: rotate(-45deg)
+    > nav
+      > ul.g-nav
+        position: absolute
+        top: 42px
+        right: 8px
+        flex-direction: column
+        width: 160px
+        line-height: 26px
+        max-height: 500px
+        transition: max-height .3s
+        padding: 0
+        &.off
+          max-height: 0
+          overflow: hidden
+        > li
+          > a
+            font-size: 14px
+            padding-left: 12px
+          &:first-of-type
+            margin-top: 12px
+          &:last-of-type
+            margin-bottom: 12px
+    > .content_wrapper
+      &.index
+        flex-direction: column-reverse
+      &.gaiyo
+        > main
+          > img.gaiyo_img
+            float: initial
+            margin-left: 0px
+            margin-bottom: 20px
+      &.map
+        > main
+          > .iframe_wrapper
+            padding-top: 50%
+          > .map_description
+            flex-direction: column
+            > a
+              > img
+                width: 100%
+                height: auto
+      &.topics
+        > main
+          > .topics_wrapper
+            > ul.topics_nav
+              flex-direction: column
+            > img
+              float: initial
+              margin-left: 0px
+              width: 100%
+      > aside,
+      > main
+        width: 100%
+        > h2
+          > img
+            &:first-of-type
+              display: none
+            &:nth-of-type(2)
+              display: block
+              margin: 0 auto
+        > .intro_wrapper
+          > .visual_wrapper
+            > img
+              &:nth-of-type(1)
+                width: 100%
+              &:nth-of-type(2)
+                display: none
+        > .information_wrapper
+          > img
+            float: initial
+            margin-left: 0px
+            margin-bottom: 20px
+            width: 100%
+            object-fit: contain
+      > .profile
+        flex-direction: column
+        > .single_profile
+          padding: 20px
+          width: 100%
+      &.category
+        > main
+          > .category_wrapper
+            flex-direction: column
