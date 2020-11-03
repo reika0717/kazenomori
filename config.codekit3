@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
+"AAInfo": "This is a CodeKit 3 project config file. EDITING THIS FILE IS A POOR LIFE DECISION. Doing so may cause CodeKit to crash and/or corrupt your project. Several critical values in this file are 64-bit integers, which JavaScript JSON parsers do not support because JavaScript cannot handle 64-bit integers. These values will be corrupted if the file is parsed with JavaScript. This file is not backwards-compatible with CodeKit 1 or 2. For details, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,7 +7,7 @@
 		"uuidString": "67F0CED1-D8F4-4E5E-8288-2CA347AE9EE3"
 		}
 	],
-"creatorBuild": "32186",
+"creatorBuild": "33081",
 "files": {
 	"/1calender.html": {
 		"cB": 0,
@@ -132,6 +132,17 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
+	"/js/default-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/default-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/default.js": {
 		"bF": 0,
 		"ft": 64,
@@ -149,7 +160,9 @@
 		"oA": 0,
 		"oAP": "/paint/1_kingyo1.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1_kingyo2.gif": {
 		"ft": 4194304,
@@ -157,7 +170,9 @@
 		"oA": 0,
 		"oAP": "/paint/1_kingyo2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1b-orange.gif": {
 		"ft": 4194304,
@@ -165,7 +180,9 @@
 		"oA": 0,
 		"oAP": "/paint/1b-orange.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1calen1.gif": {
 		"ft": 4194304,
@@ -173,7 +190,9 @@
 		"oA": 0,
 		"oAP": "/paint/1calen1.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1calen2.gif": {
 		"ft": 4194304,
@@ -181,7 +200,9 @@
 		"oA": 0,
 		"oAP": "/paint/1calen2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1calen3.gif": {
 		"ft": 4194304,
@@ -189,7 +210,9 @@
 		"oA": 0,
 		"oAP": "/paint/1calen3.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1calen4.gif": {
 		"ft": 4194304,
@@ -197,7 +220,9 @@
 		"oA": 0,
 		"oAP": "/paint/1calen4.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1calender_09_01.gif": {
 		"ft": 4194304,
@@ -205,7 +230,9 @@
 		"oA": 0,
 		"oAP": "/paint/1calender_09_01.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1calender_09_02.gif": {
 		"ft": 4194304,
@@ -213,7 +240,9 @@
 		"oA": 0,
 		"oAP": "/paint/1calender_09_02.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1calender_10092calen3.gif": {
 		"ft": 4194304,
@@ -221,7 +250,9 @@
 		"oA": 0,
 		"oAP": "/paint/1calender_10092calen3.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1calender_1009calen1.gif": {
 		"ft": 4194304,
@@ -229,7 +260,9 @@
 		"oA": 0,
 		"oAP": "/paint/1calender_1009calen1.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1calender_1009calen2.gif": {
 		"ft": 4194304,
@@ -237,7 +270,9 @@
 		"oA": 0,
 		"oAP": "/paint/1calender_1009calen2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1calender_1009calen4.gif": {
 		"ft": 4194304,
@@ -245,7 +280,9 @@
 		"oA": 0,
 		"oAP": "/paint/1calender_1009calen4.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1calender_201007.gif": {
 		"ft": 4194304,
@@ -253,7 +290,9 @@
 		"oA": 0,
 		"oAP": "/paint/1calender_201007.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1calender_kame2.gif": {
 		"ft": 4194304,
@@ -261,7 +300,9 @@
 		"oA": 0,
 		"oAP": "/paint/1calender_kame2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1ie_3.gif": {
 		"ft": 4194304,
@@ -269,7 +310,9 @@
 		"oA": 0,
 		"oAP": "/paint/1ie_3.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1index_1..gif": {
 		"ft": 4194304,
@@ -277,7 +320,9 @@
 		"oA": 0,
 		"oAP": "/paint/1index_1..gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1index_2..gif": {
 		"ft": 4194304,
@@ -285,7 +330,9 @@
 		"oA": 0,
 		"oAP": "/paint/1index_2..gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1index_201009.jpg": {
 		"ft": 16384,
@@ -296,7 +343,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/paint/1index_4..gif": {
 		"ft": 4194304,
@@ -304,7 +353,9 @@
 		"oA": 0,
 		"oAP": "/paint/1index_4..gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1inu.gif": {
 		"ft": 4194304,
@@ -312,7 +363,9 @@
 		"oA": 0,
 		"oAP": "/paint/1inu.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1inu_big.gif": {
 		"ft": 4194304,
@@ -320,7 +373,9 @@
 		"oA": 0,
 		"oAP": "/paint/1inu_big.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1inu_small.1.gif": {
 		"ft": 4194304,
@@ -328,7 +383,9 @@
 		"oA": 0,
 		"oAP": "/paint/1inu_small.1.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1kaba.jpg": {
 		"ft": 16384,
@@ -339,7 +396,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/paint/1kame1.gif": {
 		"ft": 4194304,
@@ -347,7 +406,9 @@
 		"oA": 0,
 		"oAP": "/paint/1kame1.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1kame2.gif": {
 		"ft": 4194304,
@@ -355,7 +416,9 @@
 		"oA": 0,
 		"oAP": "/paint/1kame2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1ki_1.gif": {
 		"ft": 4194304,
@@ -363,7 +426,9 @@
 		"oA": 0,
 		"oAP": "/paint/1ki_1.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1ki_2.gif": {
 		"ft": 4194304,
@@ -371,7 +436,9 @@
 		"oA": 0,
 		"oAP": "/paint/1ki_2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1line_long.gif": {
 		"ft": 4194304,
@@ -379,7 +446,9 @@
 		"oA": 0,
 		"oAP": "/paint/1line_long.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1line_short.gif": {
 		"ft": 4194304,
@@ -387,7 +456,9 @@
 		"oA": 0,
 		"oAP": "/paint/1line_short.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1mail.gif": {
 		"ft": 4194304,
@@ -395,7 +466,9 @@
 		"oA": 0,
 		"oAP": "/paint/1mail.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1neko.gif": {
 		"ft": 4194304,
@@ -403,7 +476,9 @@
 		"oA": 0,
 		"oAP": "/paint/1neko.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1suika.jpg": {
 		"ft": 16384,
@@ -414,7 +489,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/paint/1tori.gif": {
 		"ft": 4194304,
@@ -422,7 +499,9 @@
 		"oA": 0,
 		"oAP": "/paint/1tori.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/1usagi.gif": {
 		"ft": 4194304,
@@ -430,7 +509,9 @@
 		"oA": 0,
 		"oAP": "/paint/1usagi.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1_kingyo1.gif": {
 		"ft": 4194304,
@@ -438,7 +519,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1_kingyo1.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1_kingyo2.gif": {
 		"ft": 4194304,
@@ -446,7 +529,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1_kingyo2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1b-orange.gif": {
 		"ft": 4194304,
@@ -454,7 +539,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1b-orange.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1calen1.gif": {
 		"ft": 4194304,
@@ -462,7 +549,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1calen1.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1calen2.gif": {
 		"ft": 4194304,
@@ -470,7 +559,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1calen2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1calen3.gif": {
 		"ft": 4194304,
@@ -478,7 +569,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1calen3.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1calen4.gif": {
 		"ft": 4194304,
@@ -486,7 +579,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1calen4.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1calender_09_01.gif": {
 		"ft": 4194304,
@@ -494,7 +589,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1calender_09_01.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1calender_09_02.gif": {
 		"ft": 4194304,
@@ -502,7 +599,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1calender_09_02.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1calender_10092calen3.gif": {
 		"ft": 4194304,
@@ -510,7 +609,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1calender_10092calen3.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1calender_1009calen1.gif": {
 		"ft": 4194304,
@@ -518,7 +619,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1calender_1009calen1.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1calender_1009calen2.gif": {
 		"ft": 4194304,
@@ -526,7 +629,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1calender_1009calen2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1calender_1009calen4.gif": {
 		"ft": 4194304,
@@ -534,7 +639,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1calender_1009calen4.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1calender_201007.gif": {
 		"ft": 4194304,
@@ -542,7 +649,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1calender_201007.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1calender_kame2.gif": {
 		"ft": 4194304,
@@ -550,7 +659,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1calender_kame2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1ie_3.gif": {
 		"ft": 4194304,
@@ -558,7 +669,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1ie_3.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1index_1..gif": {
 		"ft": 4194304,
@@ -566,7 +679,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1index_1..gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1index_2..gif": {
 		"ft": 4194304,
@@ -574,7 +689,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1index_2..gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1index_201009.jpg": {
 		"ft": 16384,
@@ -585,7 +702,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1index_4..gif": {
 		"ft": 4194304,
@@ -593,7 +712,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1index_4..gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1inu.gif": {
 		"ft": 4194304,
@@ -601,7 +722,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1inu.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1inu_big.gif": {
 		"ft": 4194304,
@@ -609,7 +732,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1inu_big.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1inu_small.1.gif": {
 		"ft": 4194304,
@@ -617,7 +742,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1inu_small.1.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1kaba.jpg": {
 		"ft": 16384,
@@ -628,7 +755,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1kame1.gif": {
 		"ft": 4194304,
@@ -636,7 +765,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1kame1.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1kame2.gif": {
 		"ft": 4194304,
@@ -644,7 +775,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1kame2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1ki_1.gif": {
 		"ft": 4194304,
@@ -652,7 +785,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1ki_1.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1ki_2.gif": {
 		"ft": 4194304,
@@ -660,7 +795,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1ki_2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1line_long.gif": {
 		"ft": 4194304,
@@ -668,7 +805,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1line_long.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1line_short.gif": {
 		"ft": 4194304,
@@ -676,7 +815,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1line_short.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1mail.gif": {
 		"ft": 4194304,
@@ -684,7 +825,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1mail.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1neko.gif": {
 		"ft": 4194304,
@@ -692,7 +835,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1neko.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1suika.jpg": {
 		"ft": 16384,
@@ -703,7 +848,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1tori.gif": {
 		"ft": 4194304,
@@ -711,7 +858,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1tori.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/1usagi.gif": {
 		"ft": 4194304,
@@ -719,7 +868,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/1usagi.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/b_button.png": {
 		"ft": 32768,
@@ -730,7 +881,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/paint/_vti_cnf/back.gif": {
 		"ft": 4194304,
@@ -738,7 +891,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/back.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/back2.gif": {
 		"ft": 4194304,
@@ -746,7 +901,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/back2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/back3.gif": {
 		"ft": 4194304,
@@ -754,7 +911,9 @@
 		"oA": 0,
 		"oAP": "/paint/_vti_cnf/back3.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/_vti_cnf/orange_button.png": {
 		"ft": 32768,
@@ -765,7 +924,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/paint/b_button.png": {
 		"ft": 32768,
@@ -776,7 +937,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/paint/back.gif": {
 		"ft": 4194304,
@@ -784,7 +947,9 @@
 		"oA": 0,
 		"oAP": "/paint/back.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/back2.gif": {
 		"ft": 4194304,
@@ -792,7 +957,9 @@
 		"oA": 0,
 		"oAP": "/paint/back2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/back3.gif": {
 		"ft": 4194304,
@@ -800,7 +967,9 @@
 		"oA": 0,
 		"oAP": "/paint/back3.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/paint/orange_button.png": {
 		"ft": 32768,
@@ -811,7 +980,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1byouin_01.jpg": {
 		"ft": 16384,
@@ -822,7 +993,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1byouin_02.jpg": {
 		"ft": 16384,
@@ -833,7 +1006,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1byouin_03.jpg": {
 		"ft": 16384,
@@ -844,7 +1019,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1byouin_04.jpg": {
 		"ft": 16384,
@@ -855,7 +1032,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1byouin_05.jpg": {
 		"ft": 16384,
@@ -866,7 +1045,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1byouin_06.jpg": {
 		"ft": 16384,
@@ -877,7 +1058,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1byouin_07.jpg": {
 		"ft": 16384,
@@ -888,7 +1071,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1byouin_08.jpg": {
 		"ft": 16384,
@@ -899,7 +1084,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1map.jpg": {
 		"ft": 16384,
@@ -910,7 +1097,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1map2.jpg": {
 		"ft": 16384,
@@ -921,7 +1110,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1map2_small.jpg": {
 		"ft": 16384,
@@ -932,7 +1123,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1map_2013.jpg": {
 		"ft": 16384,
@@ -943,7 +1136,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1map_2013_small.jpg": {
 		"ft": 16384,
@@ -954,7 +1149,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1shisetsu_kensa.jpg": {
 		"ft": 16384,
@@ -965,7 +1162,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1shisetsu_machiai.jpg": {
 		"ft": 16384,
@@ -976,7 +1175,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1shisetsu_rentogen.jpg": {
 		"ft": 16384,
@@ -987,7 +1188,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1shisetsu_shika.jpg": {
 		"ft": 16384,
@@ -998,7 +1201,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1shisetsu_shinsatsu.jpg": {
 		"ft": 16384,
@@ -1009,7 +1214,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/1shisetsu_uketsuke.jpg": {
 		"ft": 16384,
@@ -1020,7 +1227,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/2gaiyo.10.jpg": {
 		"ft": 16384,
@@ -1031,7 +1240,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/2information.jpg": {
 		"ft": 16384,
@@ -1042,7 +1253,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/2information_2.jpg": {
 		"ft": 16384,
@@ -1053,7 +1266,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/2map2.jpg": {
 		"ft": 16384,
@@ -1064,7 +1279,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1byouin_01.jpg": {
 		"ft": 16384,
@@ -1075,7 +1292,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1byouin_02.jpg": {
 		"ft": 16384,
@@ -1086,7 +1305,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1byouin_03.jpg": {
 		"ft": 16384,
@@ -1097,7 +1318,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1byouin_04.jpg": {
 		"ft": 16384,
@@ -1108,7 +1331,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1byouin_05.jpg": {
 		"ft": 16384,
@@ -1119,7 +1344,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1byouin_06.jpg": {
 		"ft": 16384,
@@ -1130,7 +1357,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1byouin_07.jpg": {
 		"ft": 16384,
@@ -1141,7 +1370,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1byouin_08.jpg": {
 		"ft": 16384,
@@ -1152,7 +1383,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1map.jpg": {
 		"ft": 16384,
@@ -1163,7 +1396,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1map2.jpg": {
 		"ft": 16384,
@@ -1174,7 +1409,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1map2_small.jpg": {
 		"ft": 16384,
@@ -1185,7 +1422,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1shisetsu_kensa.jpg": {
 		"ft": 16384,
@@ -1196,7 +1435,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1shisetsu_machiai.jpg": {
 		"ft": 16384,
@@ -1207,7 +1448,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1shisetsu_rentogen.jpg": {
 		"ft": 16384,
@@ -1218,7 +1461,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1shisetsu_shika.jpg": {
 		"ft": 16384,
@@ -1229,7 +1474,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1shisetsu_shinsatsu.jpg": {
 		"ft": 16384,
@@ -1240,7 +1487,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/1shisetsu_uketsuke.jpg": {
 		"ft": 16384,
@@ -1251,7 +1500,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/2gaiyo.10.jpg": {
 		"ft": 16384,
@@ -1262,7 +1513,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/2information.jpg": {
 		"ft": 16384,
@@ -1273,7 +1526,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/2information_2.jpg": {
 		"ft": 16384,
@@ -1284,7 +1539,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/2map2.jpg": {
 		"ft": 16384,
@@ -1295,7 +1552,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/_vti_cnf/map2.jpg": {
 		"ft": 16384,
@@ -1306,7 +1565,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/sonota_gazo/map2.jpg": {
 		"ft": 16384,
@@ -1317,7 +1578,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/1home_hana.JPG": {
 		"ft": 16384,
@@ -1328,7 +1591,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/1hometop.jpg": {
 		"ft": 16384,
@@ -1339,7 +1604,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/1hometop090707.jpg": {
 		"ft": 16384,
@@ -1350,7 +1617,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/1hometop0907_2.gif": {
 		"ft": 4194304,
@@ -1358,7 +1627,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/1hometop0907_2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/1hometop09_summer.jpg": {
 		"ft": 16384,
@@ -1369,7 +1640,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/1hometop_110110_image001.gif": {
 		"ft": 4194304,
@@ -1377,7 +1650,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/1hometop_110110_image001.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/1hometop_110110_image002.gif": {
 		"ft": 4194304,
@@ -1385,7 +1660,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/1hometop_110110_image002.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/1top1109.gif": {
 		"ft": 4194304,
@@ -1393,7 +1670,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/1top1109.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/1top1212.JPG": {
 		"ft": 16384,
@@ -1404,7 +1683,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/1top_1001.jpg": {
 		"ft": 16384,
@@ -1415,7 +1696,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/1top_1009_1.gif": {
 		"ft": 4194304,
@@ -1423,7 +1706,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/1top_1009_1.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/1top_1009_2.gif": {
 		"ft": 4194304,
@@ -1431,7 +1716,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/1top_1009_2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/1top_1101.jpg": {
 		"ft": 16384,
@@ -1442,7 +1729,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/1top_201007.jpg": {
 		"ft": 16384,
@@ -1453,7 +1742,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/1top_2010_12.jpg": {
 		"ft": 16384,
@@ -1464,7 +1755,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/1top_201105_01.jpg": {
 		"ft": 16384,
@@ -1475,7 +1768,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/1top_201105_02.gif": {
 		"ft": 4194304,
@@ -1483,7 +1778,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/1top_201105_02.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/1top_201105_03.gif": {
 		"ft": 4194304,
@@ -1491,7 +1788,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/1top_201105_03.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/1top_201105_04.gif": {
 		"ft": 4194304,
@@ -1499,7 +1798,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/1top_201105_04.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/1top_201105_05.gif": {
 		"ft": 4194304,
@@ -1507,7 +1808,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/1top_201105_05.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/1top_201108.JPG": {
 		"ft": 16384,
@@ -1518,7 +1821,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/1top_201109.gif": {
 		"ft": 4194304,
@@ -1526,7 +1831,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/1top_201109.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/1top_2011_02.jpg": {
 		"ft": 16384,
@@ -1537,7 +1844,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/1top_main.jpg": {
 		"ft": 16384,
@@ -1548,7 +1857,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/1top_main2012.JPG": {
 		"ft": 16384,
@@ -1559,7 +1870,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/2012_09_tori.gif": {
 		"ft": 4194304,
@@ -1567,7 +1880,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/2012_09_tori.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/201306_top.JPG": {
 		"ft": 16384,
@@ -1578,7 +1893,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/2013_03top.JPG": {
 		"ft": 16384,
@@ -1589,7 +1906,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/20160508top.JPG": {
 		"ft": 16384,
@@ -1600,7 +1919,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/2top_home.jpg": {
 		"ft": 16384,
@@ -1611,7 +1932,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1home_hana.JPG": {
 		"ft": 16384,
@@ -1622,7 +1945,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1hometop.jpg": {
 		"ft": 16384,
@@ -1633,7 +1958,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1hometop090707.jpg": {
 		"ft": 16384,
@@ -1644,7 +1971,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1hometop0907_2.gif": {
 		"ft": 4194304,
@@ -1652,7 +1981,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/_vti_cnf/1hometop0907_2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1hometop09_summer.jpg": {
 		"ft": 16384,
@@ -1663,7 +1994,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1hometop_110110_image001.gif": {
 		"ft": 4194304,
@@ -1671,7 +2004,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/_vti_cnf/1hometop_110110_image001.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1hometop_110110_image002.gif": {
 		"ft": 4194304,
@@ -1679,7 +2014,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/_vti_cnf/1hometop_110110_image002.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top1109.gif": {
 		"ft": 4194304,
@@ -1687,7 +2024,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/_vti_cnf/1top1109.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_1001.jpg": {
 		"ft": 16384,
@@ -1698,7 +2037,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_1009_1.gif": {
 		"ft": 4194304,
@@ -1706,7 +2047,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/_vti_cnf/1top_1009_1.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_1009_2.gif": {
 		"ft": 4194304,
@@ -1714,7 +2057,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/_vti_cnf/1top_1009_2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_1101.jpg": {
 		"ft": 16384,
@@ -1725,7 +2070,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_201007.jpg": {
 		"ft": 16384,
@@ -1736,7 +2083,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_2010_12.jpg": {
 		"ft": 16384,
@@ -1747,7 +2096,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_201105_01.jpg": {
 		"ft": 16384,
@@ -1758,7 +2109,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_201105_02.gif": {
 		"ft": 4194304,
@@ -1766,7 +2119,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/_vti_cnf/1top_201105_02.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_201105_03.gif": {
 		"ft": 4194304,
@@ -1774,7 +2129,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/_vti_cnf/1top_201105_03.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_201105_04.gif": {
 		"ft": 4194304,
@@ -1782,7 +2139,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/_vti_cnf/1top_201105_04.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_201105_05.gif": {
 		"ft": 4194304,
@@ -1790,7 +2149,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/_vti_cnf/1top_201105_05.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_201108.JPG": {
 		"ft": 16384,
@@ -1801,7 +2162,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_201109.gif": {
 		"ft": 4194304,
@@ -1809,7 +2172,9 @@
 		"oA": 0,
 		"oAP": "/top_gazo/_vti_cnf/1top_201109.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_2011_02.jpg": {
 		"ft": 16384,
@@ -1820,7 +2185,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_main.jpg": {
 		"ft": 16384,
@@ -1831,7 +2198,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/1top_main2012.JPG": {
 		"ft": 16384,
@@ -1842,7 +2211,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/2top_home.jpg": {
 		"ft": 16384,
@@ -1853,7 +2224,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/aisatsu_top.png": {
 		"ft": 32768,
@@ -1864,7 +2237,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/calender_top.png": {
 		"ft": 32768,
@@ -1875,7 +2250,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/gaiyo_top.png": {
 		"ft": 32768,
@@ -1886,7 +2263,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/information_top.png": {
 		"ft": 32768,
@@ -1897,7 +2276,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/kyushinbi.png": {
 		"ft": 32768,
@@ -1908,7 +2289,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/link_top.png": {
 		"ft": 32768,
@@ -1919,7 +2302,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/map_top.png": {
 		"ft": 32768,
@@ -1930,7 +2315,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/senmontiryou.png": {
 		"ft": 32768,
@@ -1941,7 +2328,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/shinryoujikan.png": {
 		"ft": 32768,
@@ -1952,7 +2341,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/shinyounaiyou.png": {
 		"ft": 32768,
@@ -1963,7 +2354,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/shisetsu_top.png": {
 		"ft": 32768,
@@ -1974,7 +2367,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/title_top.png": {
 		"ft": 32768,
@@ -1985,7 +2380,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/top_top.png": {
 		"ft": 32768,
@@ -1996,7 +2393,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/topics_top.png": {
 		"ft": 32768,
@@ -2007,7 +2406,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/under1_top.png": {
 		"ft": 32768,
@@ -2018,7 +2419,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/_vti_cnf/under2_top.png": {
 		"ft": 32768,
@@ -2029,7 +2432,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/aisatsu_top.png": {
 		"ft": 32768,
@@ -2040,7 +2445,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/calender_top.png": {
 		"ft": 32768,
@@ -2051,7 +2458,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/gaiyo_top.png": {
 		"ft": 32768,
@@ -2062,7 +2471,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/information_top.png": {
 		"ft": 32768,
@@ -2073,7 +2484,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/kyushinbi.png": {
 		"ft": 32768,
@@ -2084,7 +2497,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/link_top.png": {
 		"ft": 32768,
@@ -2095,7 +2510,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/map_top.png": {
 		"ft": 32768,
@@ -2106,7 +2523,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/senmontiryou.png": {
 		"ft": 32768,
@@ -2117,7 +2536,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/shinryoujikan.png": {
 		"ft": 32768,
@@ -2128,7 +2549,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/shinyounaiyou.png": {
 		"ft": 32768,
@@ -2139,7 +2562,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/shisetsu_top.png": {
 		"ft": 32768,
@@ -2150,7 +2575,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/title_top.png": {
 		"ft": 32768,
@@ -2161,7 +2588,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/top_oshirase.png": {
 		"ft": 32768,
@@ -2172,7 +2601,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/top_top.png": {
 		"ft": 32768,
@@ -2183,7 +2614,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/topics_top.png": {
 		"ft": 32768,
@@ -2194,7 +2627,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/under1_top.png": {
 		"ft": 32768,
@@ -2205,7 +2640,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/top_gazo/under2_top.png": {
 		"ft": 32768,
@@ -2216,7 +2653,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1back.gif": {
 		"ft": 4194304,
@@ -2224,7 +2663,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1back.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topic_2012_06_01.jpg": {
 		"ft": 16384,
@@ -2235,7 +2676,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topic_2012_06_02.jpg": {
 		"ft": 16384,
@@ -2246,7 +2689,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topic_2014_05.jpg": {
 		"ft": 16384,
@@ -2257,7 +2702,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topicks_201409.jpg": {
 		"ft": 16384,
@@ -2268,7 +2715,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200812.gif": {
 		"ft": 4194304,
@@ -2276,7 +2725,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_200812.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200812_01.gif": {
 		"ft": 4194304,
@@ -2284,7 +2735,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_200812_01.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200901.jpg": {
 		"ft": 16384,
@@ -2295,7 +2748,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200902_01.jpg": {
 		"ft": 16384,
@@ -2306,7 +2761,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200902_02.jpg": {
 		"ft": 16384,
@@ -2317,7 +2774,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200902_03.jpg": {
 		"ft": 16384,
@@ -2328,7 +2787,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200902_04.jpg": {
 		"ft": 16384,
@@ -2339,7 +2800,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200902_05.jpg": {
 		"ft": 16384,
@@ -2350,7 +2813,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200903.jpg": {
 		"ft": 16384,
@@ -2361,7 +2826,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200904.jpg": {
 		"ft": 16384,
@@ -2372,7 +2839,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200905_01.gif": {
 		"ft": 4194304,
@@ -2380,7 +2849,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_200905_01.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200905_02.gif": {
 		"ft": 4194304,
@@ -2388,7 +2859,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_200905_02.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200905_03.jpg": {
 		"ft": 16384,
@@ -2399,7 +2872,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200906_01.gif": {
 		"ft": 4194304,
@@ -2407,7 +2882,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_200906_01.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200906_02.gif": {
 		"ft": 4194304,
@@ -2415,7 +2892,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_200906_02.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200906_03.gif": {
 		"ft": 4194304,
@@ -2423,7 +2902,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_200906_03.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200906_04.gif": {
 		"ft": 4194304,
@@ -2431,7 +2912,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_200906_04.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200906_05.gif": {
 		"ft": 4194304,
@@ -2439,7 +2922,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_200906_05.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200906_06.jpg": {
 		"ft": 16384,
@@ -2450,7 +2935,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200906_08.gif": {
 		"ft": 4194304,
@@ -2458,7 +2945,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_200906_08.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200906_08.jpg": {
 		"ft": 16384,
@@ -2469,7 +2958,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200906_09.gif": {
 		"ft": 4194304,
@@ -2477,7 +2968,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_200906_09.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200907_02.jpg": {
 		"ft": 16384,
@@ -2488,7 +2981,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200907_03.jpg": {
 		"ft": 16384,
@@ -2499,7 +2994,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200907_04.jpg": {
 		"ft": 16384,
@@ -2510,7 +3007,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200907_05.gif": {
 		"ft": 4194304,
@@ -2518,7 +3017,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_200907_05.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200907_06.gif": {
 		"ft": 4194304,
@@ -2526,7 +3027,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_200907_06.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200907_07.gif": {
 		"ft": 4194304,
@@ -2534,7 +3037,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_200907_07.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200908_01.jpg": {
 		"ft": 16384,
@@ -2545,7 +3050,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200909_01.jpg": {
 		"ft": 16384,
@@ -2556,7 +3063,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200909_02.gif": {
 		"ft": 4194304,
@@ -2564,7 +3073,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_200909_02.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200911.jpg": {
 		"ft": 16384,
@@ -2575,7 +3086,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200912_01.jpg": {
 		"ft": 16384,
@@ -2586,7 +3099,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_200912_02.jpg": {
 		"ft": 16384,
@@ -2597,7 +3112,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201001.jpg": {
 		"ft": 16384,
@@ -2608,7 +3125,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201002.gif": {
 		"ft": 4194304,
@@ -2616,7 +3135,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_201002.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201004.gif": {
 		"ft": 4194304,
@@ -2624,7 +3145,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_201004.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201005.jpg": {
 		"ft": 16384,
@@ -2635,7 +3158,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_20100601.jpg": {
 		"ft": 16384,
@@ -2646,7 +3171,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201006_02.jpg": {
 		"ft": 16384,
@@ -2657,7 +3184,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201007.jpg": {
 		"ft": 16384,
@@ -2668,7 +3197,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201008.jpg": {
 		"ft": 16384,
@@ -2679,7 +3210,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201009_01.gif": {
 		"ft": 4194304,
@@ -2687,7 +3220,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_201009_01.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201009_02.jpg": {
 		"ft": 16384,
@@ -2698,7 +3233,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201010.jpg": {
 		"ft": 16384,
@@ -2709,7 +3246,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201011.jpg": {
 		"ft": 16384,
@@ -2720,7 +3259,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201012.jpg": {
 		"ft": 16384,
@@ -2731,7 +3272,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201101.jpg": {
 		"ft": 16384,
@@ -2742,7 +3285,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201102.jpg": {
 		"ft": 16384,
@@ -2753,7 +3298,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201103.gif": {
 		"ft": 4194304,
@@ -2761,7 +3308,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_201103.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201104.jpg": {
 		"ft": 16384,
@@ -2772,7 +3321,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201105_01.jpg": {
 		"ft": 16384,
@@ -2783,7 +3334,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201106_01.jpg": {
 		"ft": 16384,
@@ -2794,7 +3347,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201106_02.jpg": {
 		"ft": 16384,
@@ -2805,7 +3360,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201107_01.jpg": {
 		"ft": 16384,
@@ -2816,7 +3373,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201107_02.jpg": {
 		"ft": 16384,
@@ -2827,7 +3386,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201108.JPG": {
 		"ft": 16384,
@@ -2838,7 +3399,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201109.gif": {
 		"ft": 4194304,
@@ -2846,7 +3409,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_201109.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201109_01.JPG": {
 		"ft": 16384,
@@ -2857,7 +3422,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201109_02.JPG": {
 		"ft": 16384,
@@ -2868,7 +3435,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201112.jpg": {
 		"ft": 16384,
@@ -2879,7 +3448,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_2011_01.jpg": {
 		"ft": 16384,
@@ -2890,7 +3461,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201202.jpg": {
 		"ft": 16384,
@@ -2901,7 +3474,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201203_01.jpg": {
 		"ft": 16384,
@@ -2912,7 +3487,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201203_02.jpg": {
 		"ft": 16384,
@@ -2923,7 +3500,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201205_01.jpg": {
 		"ft": 16384,
@@ -2934,7 +3513,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201205_02.jpg": {
 		"ft": 16384,
@@ -2945,7 +3526,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201207_01.jpg": {
 		"ft": 16384,
@@ -2956,7 +3539,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201207_02.jpg": {
 		"ft": 16384,
@@ -2967,7 +3552,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_2012_01.jpg": {
 		"ft": 16384,
@@ -2978,7 +3565,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_2012_05.jpg": {
 		"ft": 16384,
@@ -2989,7 +3578,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_2012_08_01.jpg": {
 		"ft": 16384,
@@ -3000,7 +3591,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_2012_08_02.jpg": {
 		"ft": 16384,
@@ -3011,7 +3604,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_2012_08_03.jpg": {
 		"ft": 16384,
@@ -3022,7 +3617,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_2012_09_01.jpg": {
 		"ft": 16384,
@@ -3033,7 +3630,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_2012_12_01.jpg": {
 		"ft": 16384,
@@ -3044,7 +3643,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_2012_12_02.jpg": {
 		"ft": 16384,
@@ -3055,7 +3656,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_2012_12_03.gif": {
 		"ft": 4194304,
@@ -3063,7 +3666,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_2012_12_03.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_2012_12_04.gif": {
 		"ft": 4194304,
@@ -3071,7 +3676,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_2012_12_04.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201306_01.jpg": {
 		"ft": 16384,
@@ -3082,7 +3689,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201310_01.jpg": {
 		"ft": 16384,
@@ -3093,7 +3702,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_201310_02.jpg": {
 		"ft": 16384,
@@ -3104,7 +3715,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_2013_3_01.jpg": {
 		"ft": 16384,
@@ -3115,7 +3728,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_2014_02_01.jpg": {
 		"ft": 16384,
@@ -3126,7 +3741,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/1topics_inu.gif": {
 		"ft": 4194304,
@@ -3134,7 +3751,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/1topics_inu.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1back.gif": {
 		"ft": 4194304,
@@ -3142,7 +3761,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1back.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topic_2012_06_01.jpg": {
 		"ft": 16384,
@@ -3153,7 +3774,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topic_2012_06_02.jpg": {
 		"ft": 16384,
@@ -3164,7 +3787,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200812.gif": {
 		"ft": 4194304,
@@ -3172,7 +3797,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_200812.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200812_01.gif": {
 		"ft": 4194304,
@@ -3180,7 +3807,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_200812_01.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200901.jpg": {
 		"ft": 16384,
@@ -3191,7 +3820,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200902_01.jpg": {
 		"ft": 16384,
@@ -3202,7 +3833,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200902_02.jpg": {
 		"ft": 16384,
@@ -3213,7 +3846,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200902_03.jpg": {
 		"ft": 16384,
@@ -3224,7 +3859,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200902_04.jpg": {
 		"ft": 16384,
@@ -3235,7 +3872,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200902_05.jpg": {
 		"ft": 16384,
@@ -3246,7 +3885,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200903.jpg": {
 		"ft": 16384,
@@ -3257,7 +3898,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200904.jpg": {
 		"ft": 16384,
@@ -3268,7 +3911,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200905_01.gif": {
 		"ft": 4194304,
@@ -3276,7 +3921,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_200905_01.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200905_02.gif": {
 		"ft": 4194304,
@@ -3284,7 +3931,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_200905_02.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200905_03.jpg": {
 		"ft": 16384,
@@ -3295,7 +3944,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200906_01.gif": {
 		"ft": 4194304,
@@ -3303,7 +3954,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_200906_01.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200906_02.gif": {
 		"ft": 4194304,
@@ -3311,7 +3964,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_200906_02.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200906_03.gif": {
 		"ft": 4194304,
@@ -3319,7 +3974,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_200906_03.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200906_04.gif": {
 		"ft": 4194304,
@@ -3327,7 +3984,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_200906_04.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200906_05.gif": {
 		"ft": 4194304,
@@ -3335,7 +3994,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_200906_05.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200906_06.jpg": {
 		"ft": 16384,
@@ -3346,7 +4007,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200906_08.gif": {
 		"ft": 4194304,
@@ -3354,7 +4017,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_200906_08.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200906_08.jpg": {
 		"ft": 16384,
@@ -3365,7 +4030,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200906_09.gif": {
 		"ft": 4194304,
@@ -3373,7 +4040,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_200906_09.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200907_02.jpg": {
 		"ft": 16384,
@@ -3384,7 +4053,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200907_03.jpg": {
 		"ft": 16384,
@@ -3395,7 +4066,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200907_04.jpg": {
 		"ft": 16384,
@@ -3406,7 +4079,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200907_05.gif": {
 		"ft": 4194304,
@@ -3414,7 +4089,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_200907_05.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200907_06.gif": {
 		"ft": 4194304,
@@ -3422,7 +4099,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_200907_06.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200907_07.gif": {
 		"ft": 4194304,
@@ -3430,7 +4109,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_200907_07.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200908_01.jpg": {
 		"ft": 16384,
@@ -3441,7 +4122,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200909_01.jpg": {
 		"ft": 16384,
@@ -3452,7 +4135,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200909_02.gif": {
 		"ft": 4194304,
@@ -3460,7 +4145,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_200909_02.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200911.jpg": {
 		"ft": 16384,
@@ -3471,7 +4158,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200912_01.jpg": {
 		"ft": 16384,
@@ -3482,7 +4171,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_200912_02.jpg": {
 		"ft": 16384,
@@ -3493,7 +4184,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201001.jpg": {
 		"ft": 16384,
@@ -3504,7 +4197,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201002.gif": {
 		"ft": 4194304,
@@ -3512,7 +4207,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_201002.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201004.gif": {
 		"ft": 4194304,
@@ -3520,7 +4217,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_201004.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201005.jpg": {
 		"ft": 16384,
@@ -3531,7 +4230,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_20100601.jpg": {
 		"ft": 16384,
@@ -3542,7 +4243,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201006_02.jpg": {
 		"ft": 16384,
@@ -3553,7 +4256,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201007.jpg": {
 		"ft": 16384,
@@ -3564,7 +4269,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201008.jpg": {
 		"ft": 16384,
@@ -3575,7 +4282,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201009_01.gif": {
 		"ft": 4194304,
@@ -3583,7 +4292,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_201009_01.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201009_02.jpg": {
 		"ft": 16384,
@@ -3594,7 +4305,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201010.jpg": {
 		"ft": 16384,
@@ -3605,7 +4318,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201011.jpg": {
 		"ft": 16384,
@@ -3616,7 +4331,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201012.jpg": {
 		"ft": 16384,
@@ -3627,7 +4344,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201101.jpg": {
 		"ft": 16384,
@@ -3638,7 +4357,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201102.jpg": {
 		"ft": 16384,
@@ -3649,7 +4370,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201103.gif": {
 		"ft": 4194304,
@@ -3657,7 +4380,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_201103.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201104.jpg": {
 		"ft": 16384,
@@ -3668,7 +4393,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201105_01.jpg": {
 		"ft": 16384,
@@ -3679,7 +4406,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201106_01.jpg": {
 		"ft": 16384,
@@ -3690,7 +4419,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201106_02.jpg": {
 		"ft": 16384,
@@ -3701,7 +4432,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201107_01.jpg": {
 		"ft": 16384,
@@ -3712,7 +4445,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201107_02.jpg": {
 		"ft": 16384,
@@ -3723,7 +4458,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201108.JPG": {
 		"ft": 16384,
@@ -3734,7 +4471,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201109.gif": {
 		"ft": 4194304,
@@ -3742,7 +4481,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_201109.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201109_01.JPG": {
 		"ft": 16384,
@@ -3753,7 +4494,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201109_02.JPG": {
 		"ft": 16384,
@@ -3764,7 +4507,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201112.jpg": {
 		"ft": 16384,
@@ -3775,7 +4520,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_2011_01.jpg": {
 		"ft": 16384,
@@ -3786,7 +4533,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201202.jpg": {
 		"ft": 16384,
@@ -3797,7 +4546,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201203_01.jpg": {
 		"ft": 16384,
@@ -3808,7 +4559,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201203_02.jpg": {
 		"ft": 16384,
@@ -3819,7 +4572,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201205_01.jpg": {
 		"ft": 16384,
@@ -3830,7 +4585,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201205_02.jpg": {
 		"ft": 16384,
@@ -3841,7 +4598,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201207_01.jpg": {
 		"ft": 16384,
@@ -3852,7 +4611,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_201207_02.jpg": {
 		"ft": 16384,
@@ -3863,7 +4624,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_2012_01.jpg": {
 		"ft": 16384,
@@ -3874,7 +4637,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_2012_05.jpg": {
 		"ft": 16384,
@@ -3885,7 +4650,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/1topics_inu.gif": {
 		"ft": 4194304,
@@ -3893,7 +4660,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/1topics_inu.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/_vti_cnf/inu.gif": {
 		"ft": 4194304,
@@ -3901,7 +4670,9 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/_vti_cnf/inu.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/Topics_gazo/inu.gif": {
 		"ft": 4194304,
@@ -3909,7 +4680,745 @@
 		"oA": 0,
 		"oAP": "/Topics_gazo/inu.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/topics_kiji/1topics_0812.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_0812.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_0901.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_0901.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_09010.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_09010.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_09011.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_09011.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_0902.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_0902.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_0903.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_0903.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_0904.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_0904.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_0905.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_0905.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_0906.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_0906.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_0907.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_0907.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_0908.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_0908.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_0909.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_0909.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_0912.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_0912.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1001.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1001.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1002.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1002.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1003.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1003.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1004.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1004.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1005.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1005.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1006.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1006.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1007.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1007.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1008.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1008.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1009.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1009.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1010.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1010.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1011.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1011.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1101.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1101.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1102.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1102.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1103.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1103.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1104.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1104.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1105.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1105.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1106.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1106.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1107.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1107.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1108.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1108.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1109.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1109.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1110.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1110.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1111.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1111.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1112.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1112.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1201.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1201.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_12010.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_12010.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1202.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1202.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1203.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1203.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1204.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1204.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1205.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1205.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1206.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1206.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1207.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1207.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1208.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1208.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1301.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1301.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1303.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1303.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1306.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1306.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1402.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1402.html",
+		"oF": 0
+		},
+	"/topics_kiji/1topics_1405.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/1topics_1405.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_0812.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_0812.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_0901.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_0901.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_09010.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_09010.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_09011.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_09011.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_0902.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_0902.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_0903.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_0903.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_0904.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_0904.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_0905.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_0905.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_0906.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_0906.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_0907.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_0907.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_0908.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_0908.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_0909.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_0909.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_0912.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_0912.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1001.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1001.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1002.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1002.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1003.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1003.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1004.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1004.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1005.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1005.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1006.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1006.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1007.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1007.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1008.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1008.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1009.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1009.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1010.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1010.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1011.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1011.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1101.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1101.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1102.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1102.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1103.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1103.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1104.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1104.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1105.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1105.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1106.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1106.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1107.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1107.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1108.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1108.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1109.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1109.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1110.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1110.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1111.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1111.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1112.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1112.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1201.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1201.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1202.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1202.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1203.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1203.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1204.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1204.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1205.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1205.html",
+		"oF": 0
+		},
+	"/topics_kiji/_vti_cnf/1topics_1206.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/topics_kiji/_vti_cnf/1topics_1206.html",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -4394,8 +5903,7 @@
 			"optionString": "{'before': true, 'after': true}"
 			},
 		"block-scoped-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"block-spacing": {
 			"active": 0,
@@ -4450,24 +5958,20 @@
 			"optionString": "'that'"
 			},
 		"constructor-super": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"curly": {
 			"active": 0,
 			"optionString": "'all'"
 			},
 		"default-case": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"default-case-last": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"default-param-last": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"dot-location": {
 			"active": 0,
@@ -4486,8 +5990,7 @@
 			"optionString": "'always', {'null': 'always'}"
 			},
 		"for-direction": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"func-call-spacing": {
 			"active": 0,
@@ -4518,16 +6021,14 @@
 			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"grouped-accessor-pairs": {
 			"active": 0,
 			"optionString": "'anyOrder'"
 			},
 		"guard-for-in": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"handle-callback-err": {
 			"active": 0,
@@ -4642,44 +6143,35 @@
 			"optionString": "{'ignoreChainWithDepth': 2}"
 			},
 		"no-alert": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-array-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-async-promise-executor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-await-in-loop": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
 			},
 		"no-buffer-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-caller": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-case-declarations": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-class-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-compare-neg-zero": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-cond-assign": {
 			"active": 1,
@@ -4694,124 +6186,101 @@
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-constant-condition": {
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
 		"no-constructor-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-continue": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-control-regex": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-debugger": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-delete-var": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-div-regex": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-dupe-args": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-class-members": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-else-if": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-keys": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-duplicate-imports": {
 			"active": 0,
 			"optionString": "{'includeExports': false}"
 			},
 		"no-else-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-empty": {
 			"active": 1,
 			"optionString": "{'allowEmptyCatch': false}"
 			},
 		"no-empty-character-class": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-empty-function": {
 			"active": 0,
 			"optionString": "{'allow': []}"
 			},
 		"no-empty-pattern": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-eq-null": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-eval": {
 			"active": 0,
 			"optionString": "{'allowIndirect': false}"
 			},
 		"no-ex-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-extend-native": {
 			"active": 0,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-extra-bind": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-extra-boolean-cast": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-extra-labels": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-extra-parens": {
 			"active": 0,
 			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false, 'enforceForSequenceExpressions': false, 'enforceForNewInMemberExpressions': false}"
 			},
 		"no-extra-semi": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-fallthrough": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-floating-decimal": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-func-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-global-assign": {
 			"active": 1,
@@ -4822,20 +6291,16 @@
 			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
 			},
 		"no-implicit-globals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-implied-eval": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-import-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-inline-comments": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-inner-declarations": {
 			"active": 1,
@@ -4854,40 +6319,33 @@
 			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
 			},
 		"no-iterator": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-label-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-labels": {
 			"active": 0,
 			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
 			},
 		"no-lone-blocks": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-lonely-if": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-loop-func": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-loss-of-precision": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
 		"no-misleading-character-class": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-mixed-operators": {
 			"active": 0,
@@ -4902,100 +6360,84 @@
 			"optionString": ""
 			},
 		"no-multi-assign": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
 			},
 		"no-multi-str": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-multiple-empty-lines": {
 			"active": 0,
 			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
 			},
 		"no-negated-condition": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-nested-ternary": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-func": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-object": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-require": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-symbol": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-new-wrappers": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-obj-calls": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-octal": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-octal-escape": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-param-reassign": {
 			"active": 0,
 			"optionString": "{'props': false}"
 			},
 		"no-path-concat": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-plusplus": {
 			"active": 0,
 			"optionString": "{'allowForLoopAfterthoughts': false}"
 			},
 		"no-process-env": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-process-exit": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
+			},
+		"no-promise-executor-return": {
+			"active": 0
 			},
 		"no-proto": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-prototype-builtins": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
 			},
 		"no-regex-spaces": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-restricted-exports": {
 			"active": 0,
@@ -5006,8 +6448,7 @@
 			"optionString": "'event', 'fdescribe'"
 			},
 		"no-restricted-imports": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-restricted-modules": {
 			"active": 0,
@@ -5026,40 +6467,33 @@
 			"optionString": "'except-parens'"
 			},
 		"no-return-await": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-script-url": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-self-assign": {
 			"active": 1,
 			"optionString": "{'props': true}"
 			},
 		"no-self-compare": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-sequences": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-setter-return": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
 			},
 		"no-shadow-restricted-names": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-sparse-arrays": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-sync": {
 			"active": 0,
@@ -5070,20 +6504,16 @@
 			"optionString": "{allowIndentationTabs: false}"
 			},
 		"no-template-curly-in-string": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-ternary": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-this-before-super": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-throw-literal": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-trailing-spaces": {
 			"active": 0,
@@ -5094,36 +6524,34 @@
 			"optionString": "{'typeof': false}"
 			},
 		"no-undef-init": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-undefined": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-underscore-dangle": {
 			"active": 0,
 			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unmodified-loop-condition": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-unneeded-ternary": {
 			"active": 0,
 			"optionString": "{'defaultAssignment': true}"
 			},
 		"no-unreachable": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
+			},
+		"no-unreachable-loop": {
+			"active": 0,
+			"optionString": "{'ignore': []}"
 			},
 		"no-unsafe-finally": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unsafe-negation": {
 			"active": 1,
@@ -5134,8 +6562,7 @@
 			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unused-vars": {
 			"active": 1,
@@ -5146,44 +6573,36 @@
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
 		"no-useless-backreference": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-call": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-catch": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": "{'enforceForClassMembers': false}"
 			},
 		"no-useless-concat": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-escape": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-rename": {
 			"active": 0,
 			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
 			},
 		"no-useless-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-void": {
 			"active": 0,
@@ -5194,12 +6613,10 @@
 			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
 			},
 		"no-whitespace-before-property": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-with": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"nonblock-statement-body-position": {
 			"active": 0,
@@ -5246,8 +6663,7 @@
 			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
 			},
 		"prefer-arrow-callback": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-const": {
 			"active": 0,
@@ -5258,40 +6674,32 @@
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-exponentiation-operator": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-named-capture-group": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-numeric-literals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-object-spread": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-regex-literals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-rest-params": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-spread": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-template": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"quote-props": {
 			"active": 0,
@@ -5306,24 +6714,20 @@
 			"optionString": "'always'"
 			},
 		"require-atomic-updates": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-await": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-unicode-regexp": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-yield": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"rest-spread-spacing": {
 			"active": 0,
@@ -5386,8 +6790,7 @@
 			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"template-curly-spacing": {
 			"active": 0,
@@ -5414,16 +6817,14 @@
 			"optionString": "{'requireStringLiterals': true}"
 			},
 		"vars-on-top": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"wrap-iife": {
 			"active": 0,
 			"optionString": "'outside'"
 			},
 		"wrap-regex": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"yield-star-spacing": {
 			"active": 0,
@@ -5818,7 +7219,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsHAML": {
 		"autoOutputAction": 0,
@@ -5844,7 +7247,9 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"outputFormat": 0,
-		"quality": 100
+		"quality": 100,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -5936,7 +7341,9 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"optimizerType": 1,
-		"quality": 100
+		"quality": 100,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -6337,6 +7744,8 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$,exports,require",
+	"webpPresets": {
+		},
 	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"

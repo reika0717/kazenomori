@@ -40,6 +40,26 @@
   text-align: right;
 }
 
+figure {
+  margin: 20px 0;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex > figure {
+  margin-right: 10px;
+}
+.flex > figure > img {
+  width: 272px;
+  height: 183px;
+  object-fit: cover;
+}
+.flex > figure > figcaption {
+  width: 272px;
+}
+
 :root {
   --hamburger-menu-size: 44px;
   --hamburger-menu-padding: 14px;
